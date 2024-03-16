@@ -23,6 +23,12 @@ gunicorn and having other systems call this service.
 * `mypy .`
 * `black .`
 
+## API Endpoints
+
+* You can interact with the service several ways
+  * Through a browser http://localhost:8000/usercore/users/
+  * Use the `ProductAPI.http` file as a reference to make API calls.
+  * Django admin http://localhost:8000/admin/
 
 ## Relevant DB Queries
 

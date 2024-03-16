@@ -1,0 +1,14 @@
+### GET request list
+GET http://localhost:8000/usercore/users/
+Accept: application/json
+
+### GET request single record
+GET http://localhost:8000/usercore/users/40000/
+Accept: application/json
+
+### POST request create single record
+POST http://localhost:8000/usercore/users/
+Accept: application/json
+Content-Type: application/json
+
+{"name":"Anthony", "age":2}
